@@ -1,0 +1,20 @@
+{
+    "name": "nojus/testing-homework",
+    "description": "test",
+    "authors": [
+        {
+            "name": "Nojus R",
+            "email": "nojusr@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Main\\": "src",
+            "Tests\\": "Tests"
+        }
+    }
+}
